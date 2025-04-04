@@ -3,10 +3,10 @@
 Below is what the rolling-shutter dataset looks like before and after we line up cam1 (RS) with cam0 (GS). No training, just the same sidecar format we use for the NeRF modules.
 
 **Rolling shutter input (cam1)**
-![RS frame](fieldfixer/media/seq4_rs_frame.png)
+![RS frame](fieldfixer/fieldfixer/media/seq4_rs_frame.png)
 
 **Global shutter reference (cam0)**
-![GS frame](/fieldfixer/media/seq4_gs_frame.png)
+![GS frame](/fieldfixer/fieldfixer/media/seq4_gs_frame.png)
 If you feel fancy, the bake side lives on these papers:
 - RS-NeRF / URS-NeRF (rolling shutter timing) – https://arxiv.org/abs/2404.07488 and https://arxiv.org/abs/2407.01242
 - Deblur-NeRF (sharp targets from blur) – https://openaccess.thecvf.com/content/CVPR2022/html/Chen_Deblur-NeRF_Deblurring_Neural_Radiance_Fields_With_Cameras_On_Motion_CVPR_2022_paper.html
