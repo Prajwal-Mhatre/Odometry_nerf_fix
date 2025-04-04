@@ -1,0 +1,37 @@
+﻿# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Virtualenvs
+.venv/
+venv/
+ENV/
+
+# IDE project files
+.vscode/
+.idea/
+*.swp
+
+# Python packaging/lock files
+dist/
+build/
+*.egg-info/
+
+# Local data artifacts
+runs/
+data/
+media/
+
+# Videos and large exports
+*.mp4
+*.mov
+*.zip
+*.tar
+*.npz
+*.png
+*.jpg
+
+# Logs and temp
+*.log
+Applying
+Baking

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "mapping": "displacement",
+  "modules": [
+    "rsnerf",
+    "deblurnerf",
+    "rawnerf",
+    "nerfw"
+  ],
+  "profile": "quality",
+  "input": "Z:\\Desktop\\NEw_github_projects\\Nerf\\fieldfixer\\samples\\alley_night\\input.mp4",
+  "width": 1280,
+  "height": 1024,
+  "frames": 761
+}

@@ -1,0 +1,19 @@
+profile: quality
+modules:
+  - rsnerf
+  - deblurnerf
+  - rawnerf
+  - nerfw
+
+rsnerf:
+  train_steps: 60000
+
+deblurnerf:
+  train_steps: 40000
+
+rawnerf:
+  use_raw: true
+  target_ev: -0.3
+
+nerfw:
+  reference_frame: 0

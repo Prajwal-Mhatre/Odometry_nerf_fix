@@ -1,0 +1,23 @@
+profile: quality
+modules:
+  - rsnerf
+  - deblurnerf
+  - rawnerf
+  - nerfw
+
+rsnerf:
+  train_steps: 30000
+  renders_dir: /targets/rsnerf
+  flows_dir: /flows/rsnerf
+
+deblurnerf:
+  train_steps: 20000
+  renders_dir: /targets/deblurnerf
+  flows_dir: /flows/deblurnerf
+
+rawnerf:
+  use_raw: true
+  target_ev: 0.0
+
+nerfw:
+  reference_frame: 0

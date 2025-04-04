@@ -1,0 +1,15 @@
+profile: fast
+modules:
+  - deblurnerf
+
+rsnerf:
+  train_steps: 10000
+
+deblurnerf:
+  train_steps: 8000
+
+rawnerf:
+  use_raw: false
+
+nerfw:
+  reference_frame: 0
