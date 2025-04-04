@@ -20,7 +20,6 @@ build/
 # Local data artifacts
 runs/
 data/
-media/
 
 # Videos and large exports
 *.mp4
